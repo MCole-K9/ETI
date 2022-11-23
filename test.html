@@ -3,8 +3,34 @@
 <head>
 <meta charset="utf-8">
 <title>Bruh Deeven Wah Use Dreamweaver RN</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>
 </head>
-
 <body>
+	<!--Here wondering whether or not the script links will work properly. why are they local instead of link
+	ing to the jquery cdn?-->
+	<nav>Content for New nav Tag Goes Here</nav>
+	<p>Mostly just writing this to figure out what goes where </p>
+	<p>&nbsp;</p>
+	
+<div>
+  <p>Is this working?</p>
+	<div id="Checkboxes1">
+		  <input type="checkbox" id="Checkbox1">
+		  <label for="Checkbox1">Uh...</label>
+		  <input type="checkbox" id="Checkbox2">
+		  <label for="Checkbox2">Sure... I guess</label>
+		  <input type="checkbox" id="Checkbox3">
+		  <label for="Checkbox3">God no</label>
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Checkboxes1" ).buttonset(); 
+});
+    </script>
 </body>
 </html>
