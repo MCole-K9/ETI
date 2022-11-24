@@ -1,4 +1,7 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" frameRate="30" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 19.2 build 405" majorVersion="19" minorVersion="2" buildNumber="405" viewAngle3D="62.4108334222142" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="4A21DE26253E684180C6425DB0827D17">
+     <symbols>
+          <Include href="Symbol 1.xml" itemIcon="1" loadImmediate="false" itemID="637ee1a4-00000004" lastModified="1669259716"/>
+     </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
