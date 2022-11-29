@@ -43,5 +43,7 @@
     <footer>
 
     </footer>
+    <?php startblock("scripts");?>
+    <?php endblock();?>
 </body>
 </html>
