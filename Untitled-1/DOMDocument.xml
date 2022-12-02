@@ -189,9 +189,9 @@
                                                   </DOMTextRun>
                                              </textRuns>
                                         </DOMDynamicText>
-                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="100" height="227.4" isSelectable="false" lineType="multiline no wrap">
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="283" height="227.4" isSelectable="false" lineType="multiline no wrap">
                                              <matrix>
-                                                  <Matrix tx="467" ty="181.4"/>
+                                                  <Matrix tx="303" ty="108.95"/>
                                              </matrix>
                                              <textRuns>
                                                   <DOMTextRun>
