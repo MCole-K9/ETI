@@ -5,7 +5,7 @@
      <timelines>
           <DOMTimeline name="Scene 1" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+                    <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
@@ -163,6 +163,45 @@
                                                   <Edge cubics="!3658 4503(;3668,4512 3678,4522 3687,4532q3658 4503 3687 4532);"/>
                                              </edges>
                                         </DOMShape>
+                                        <DOMDynamicText fontRenderingMode="standard" width="243.95" height="227.4" isSelectable="false" lineType="multiline no wrap">
+                                             <matrix>
+                                                  <Matrix tx="85.05" ty="214.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Elliot Dumb</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="55.35" size="50" bitmapSize="1000" face="TimesNewRomanPS-BoldItalicMT" fillColor="#006600"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText fontRenderingMode="standard" width="100" height="55.35" isSelectable="false" lineType="multiline no wrap">
+                                             <matrix>
+                                                  <Matrix tx="412" ty="285.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters></characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="55.35" size="50" bitmapSize="1000" face="TimesNewRomanPS-BoldItalicMT" fillColor="#006600"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText selected="true" fontRenderingMode="standard" width="100" height="227.4" isSelectable="false" lineType="multiline no wrap">
+                                             <matrix>
+                                                  <Matrix tx="467" ty="181.4"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>Khalid Dumb</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="55.35" size="50" bitmapSize="1000" face="TimesNewRomanPS-BoldItalicMT" fillColor="#006600"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
                                    </elements>
                               </DOMFrame>
                          </frames>
