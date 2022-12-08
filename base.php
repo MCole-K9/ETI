@@ -11,25 +11,28 @@
     <?php endblock();?>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-info shadow">
     <div class="container">
-        <a class="navbar-brand" href="index.php">ETI</a>
+        <a class="navbar-brand" href="index.php">ETI - English Training Institute</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item hover">
                     <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hover">
                     <a class="nav-link" href="#">Topics</a> 
                     <!-- Thinking of making this a dropdown menu -->
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                <li class="nav-item hover">
+                    <a class="nav-link"  href="about.php">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item hover">
+                    <a class="nav-link"  href="developers.php">Developers</a>
+                </li>
+                <li class="nav-item hover">
                     <a class="nav-link" href="#">Contact</a>
                 </li>  
             </ul>
@@ -47,3 +50,10 @@
     <?php endblock();?>
 </body>
 </html>
+<style>
+ .hover:hover {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: .3s;
+ }
+</style>
