@@ -27,5 +27,23 @@
     </div>
 
 </section>
+<section id="activity-first" class="mt-5">
+    <div class="border border-success rounded p-3"> 
+    <p class="bg-success rounded p-2 text-white font-bold" style="margin-top: -32px; width: fit-content">Activity</p>
+    <p class=""><strong>Identify the Homonyms by the pair of definitions below</strong></p>
+    <div class="mb-3 row justify-content-between">
+    <label for="" class="col-sm-5 col-form-label">A Holding area for animals</label>
+        <div class="col-sm-5">
+        <input type="text" class="form-control" id="">
+        </div>
+    </div>
+    <div class="mb-3 row justify-content-between">
+        <label for="" class="col-sm-5 col-form-label">A writing instrument</label>
+        <div class="col-sm-5">
+        <input type="text" class="form-control" id="">
+        </div>
+    </div>
+    </div>
+</section>
 
 <?php endblock()?>
