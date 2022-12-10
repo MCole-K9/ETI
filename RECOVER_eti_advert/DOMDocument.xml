@@ -4,15 +4,16 @@
           <DOMFolderItem name="eti_phone_screen.svg Assets/SVGRoot" itemID="6394242e-000002bb"/>
      </folders>
      <symbols>
+          <Include href="eti_cauldron.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394301c-000002d1" lastModified="1670656028"/>
           <Include href="eti_phone_screen.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394242e-000002be" lastModified="1670652974"/>
           <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
           <Include href="eti_phone.svg.xml" itemIcon="1" loadImmediate="false" itemID="63941d80-0000029f" lastModified="1670651264"/>
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="225" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="899" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="text_sections" color="#00FFFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
@@ -123,7 +124,7 @@
                                         <DOMShape>
                                              <fills>
                                                   <FillStyle index="1">
-                                                       <SolidColor color="#006600"/>
+                                                       <SolidColor color="#9298FD"/>
                                                   </FillStyle>
                                              </fills>
                                              <edges>
@@ -140,7 +141,7 @@
                                         <DOMShape>
                                              <fills>
                                                   <FillStyle index="1">
-                                                       <SolidColor color="#006600"/>
+                                                       <SolidColor color="#9298FD"/>
                                                   </FillStyle>
                                              </fills>
                                              <edges>
@@ -157,7 +158,7 @@
                                         <DOMShape>
                                              <fills>
                                                   <FillStyle index="1">
-                                                       <SolidColor color="#006600"/>
+                                                       <SolidColor color="#9298FD"/>
                                                   </FillStyle>
                                              </fills>
                                              <edges>
@@ -168,7 +169,8 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone_screen" color="#FF800A" autoNamed="false">
+                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="phone_screen" color="#FF800A" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="185" keyMode="9728">
                                    <elements/>
@@ -187,12 +189,9 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone" color="#00FFFF" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="phone" color="#00FFFF" parentLayerIndex="4" current="true" isSelected="true" autoNamed="false" animationType="motion object">
                          <frames>
-                              <DOMFrame index="0" duration="120" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="120" duration="29" keyMode="9728">
+                              <DOMFrame index="0" duration="149" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="149" duration="16" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
@@ -233,57 +232,43 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="300" duration="579" keyMode="9728">
+                              <DOMFrame index="300" duration="300" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_cauldron.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="263.8" ty="372.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="90.2" y="95.35"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="600" duration="279" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="cauldron" color="#009999" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="360" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="360" duration="540" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="character" color="#FF800A" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="120" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="120" duration="180" keyMode="9728">
+                              <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="300" duration="60" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="360" duration="240" keyMode="9728">
-                                   <elements>
-                                        <DOMShape>
-                                             <fills>
-                                                  <FillStyle index="1">
-                                                       <SolidColor/>
-                                                  </FillStyle>
-                                             </fills>
-                                             <strokes>
-                                                  <StrokeStyle index="1">
-                                                       <SolidStroke scaleMode="normal">
-                                                            <fill>
-                                                                 <SolidColor/>
-                                                            </fill>
-                                                       </SolidStroke>
-                                                  </StrokeStyle>
-                                             </strokes>
-                                             <edges>
-                                                  <Edge fillStyle1="1" strokeStyle="1" edges="!5321 4481|8242 4481!8242 4481|8242 8382!8242 8382|5321 8382!5321 8382|5321 4481"/>
-                                             </edges>
-                                        </DOMShape>
-                                        <DOMDynamicText width="363.1" height="96.5" isSelectable="false" lineType="multiline no wrap">
-                                             <matrix>
-                                                  <Matrix tx="160.05" ty="107.55"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>STILL pretend something&#xD;cool is happening here</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" lineHeight="35.4" size="32" bitmapSize="640" face="TimesNewRomanPS-BoldItalicMT"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                        </DOMDynamicText>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
