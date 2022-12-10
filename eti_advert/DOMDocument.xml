@@ -10,7 +10,7 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="236" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="225" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_sections" color="#00FFFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
@@ -168,12 +168,12 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+                    <DOMLayer name="phone_screen" color="#FF800A" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="190" keyMode="9728">
+                              <DOMFrame index="0" duration="185" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="190" duration="710" keyMode="9728">
+                              <DOMFrame index="185" duration="115" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="eti_phone_screen.svg" symbolType="graphic" loop="loop">
                                              <matrix>
@@ -187,15 +187,12 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone" color="#00FFFF" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="phone" color="#00FFFF" current="true" isSelected="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="26" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="146" duration="3" keyMode="9728">
+                              <DOMFrame index="120" duration="29" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="149" duration="16" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
