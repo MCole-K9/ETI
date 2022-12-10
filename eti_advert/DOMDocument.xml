@@ -3,9 +3,9 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="627" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="text_sections" color="#00FFFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="text_sections" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="30" keyMode="9728">
@@ -85,7 +85,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer_2" color="#FF800A" parentLayerIndex="0">
+                    <DOMLayer name="txt_AdPitch" color="#FF800A" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="623" keyMode="9728">
                                    <elements/>
@@ -109,7 +109,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bg_AdQuestions" color="#9933CC" parentLayerIndex="0" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="bg_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements>
