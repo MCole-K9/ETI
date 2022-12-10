@@ -1,18 +1,24 @@
 <DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" frameRate="30" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 19.2 build 405" majorVersion="19" minorVersion="2" buildNumber="405" rulerVisible="true" pixelSnap="true" viewAngle3D="62.4108334222142" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="4A21DE26253E684180C6425DB0827D17">
+     <folders>
+          <DOMFolderItem name="eti_phone_screen.svg Assets" itemID="6394242e-000002ba"/>
+          <DOMFolderItem name="eti_phone_screen.svg Assets/SVGRoot" itemID="6394242e-000002bb"/>
+     </folders>
      <symbols>
+          <Include href="eti_phone_screen.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394242e-000002be" lastModified="1670652974"/>
+          <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
           <Include href="eti_phone.svg.xml" itemIcon="1" loadImmediate="false" itemID="63941d80-0000029f" lastModified="1670651264"/>
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="183" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="236" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_sections" color="#00FFFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="30" keyMode="9728">
+                              <DOMFrame index="0" duration="15" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="30" duration="90" keyMode="9728">
+                              <DOMFrame index="15" duration="75" keyMode="9728">
                                    <elements>
                                         <DOMDynamicText width="288.1" height="124.85" isSelectable="false" lineType="multiline no wrap">
                                              <matrix>
@@ -29,7 +35,7 @@
                                         </DOMDynamicText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="180" keyMode="9728">
+                              <DOMFrame index="90" duration="210" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="300" duration="60" keyMode="9728">
@@ -112,7 +118,7 @@
                     </DOMLayer>
                     <DOMLayer name="bg_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="120" keyMode="9728">
+                              <DOMFrame index="0" duration="90" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -126,7 +132,7 @@
                                         </DOMShape>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="180" keyMode="9728">
+                              <DOMFrame index="90" duration="210" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="300" duration="60" keyMode="9728">
@@ -162,21 +168,40 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone" color="#00FFFF" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="190" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="190" duration="710" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_phone_screen.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="426" ty="62.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="99" y="175"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="phone" color="#00FFFF" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="120" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="120" duration="53" keyMode="9728">
+                              <DOMFrame index="120" duration="26" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="173" duration="3" keyMode="9728">
+                              <DOMFrame index="146" duration="3" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="176" duration="16" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                              <DOMFrame index="149" duration="16" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="16000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="12000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-485" next="0,-485" previous="0,-485" roving="0" timevalue="12000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="eti_phone.svg" selected="true" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="eti_phone.svg" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="422.4" ty="512"/>
                                              </matrix>
@@ -186,7 +211,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="192" duration="3" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                              <DOMFrame index="165" duration="3" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="3000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="2000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,8" next="0,8" previous="0,8" roving="0" timevalue="2000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="eti_phone.svg" symbolType="graphic" centerPoint3DX="524.4" centerPoint3DY="237" loop="loop">
@@ -199,7 +224,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="195" duration="84" keyMode="9728">
+                              <DOMFrame index="168" duration="132" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="eti_phone.svg" symbolType="graphic" centerPoint3DX="524.4" centerPoint3DY="237" loop="loop">
                                              <matrix>
@@ -211,7 +236,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="279" duration="600" keyMode="9728">
+                              <DOMFrame index="300" duration="579" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -222,21 +247,7 @@
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="120" duration="180" keyMode="9728">
-                                   <elements>
-                                        <DOMDynamicText width="421.1" height="87.5" isSelectable="false" lineType="multiline no wrap">
-                                             <matrix>
-                                                  <Matrix tx="106" ty="112.55"/>
-                                             </matrix>
-                                             <textRuns>
-                                                  <DOMTextRun>
-                                                       <characters>Pretend something cool &#xD;is happening here</characters>
-                                                       <textAttrs>
-                                                            <DOMTextAttrs alignment="center" aliasText="false" lineHeight="35.4" size="32" bitmapSize="640" face="TimesNewRomanPS-BoldItalicMT"/>
-                                                       </textAttrs>
-                                                  </DOMTextRun>
-                                             </textRuns>
-                                        </DOMDynamicText>
-                                   </elements>
+                                   <elements/>
                               </DOMFrame>
                               <DOMFrame index="300" duration="60" keyMode="9728">
                                    <elements/>
