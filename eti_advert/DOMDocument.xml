@@ -8,6 +8,7 @@
           <Include href="eti_phone_screen.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394242e-000002be" lastModified="1670652974"/>
           <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
           <Include href="eti_phone.svg.xml" itemIcon="1" loadImmediate="false" itemID="63941d80-0000029f" lastModified="1670651264"/>
+          <Include href="eti_soup_bubble.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394336e-000002d6" lastModified="1670656878"/>
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
@@ -189,7 +190,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone" color="#00FFFF" parentLayerIndex="4" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="phone" color="#00FFFF" parentLayerIndex="4" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="149" keyMode="9728">
                                    <elements/>
@@ -233,18 +234,31 @@
                                    </elements>
                               </DOMFrame>
                               <DOMFrame index="300" duration="300" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="600" duration="279" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="soup_bubbles" color="#FF0000" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="360" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="360" duration="240" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="eti_cauldron.svg" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="eti_soup_bubble.svg" symbolType="graphic" loop="loop">
                                              <matrix>
-                                                  <Matrix tx="263.8" ty="372.65"/>
+                                                  <Matrix tx="315.25" ty="298.25"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="90.2" y="95.35"/>
+                                                  <Point x="16.75" y="16.75"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="279" keyMode="9728">
+                              <DOMFrame index="600" duration="300" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -254,8 +268,17 @@
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="360" duration="540" keyMode="9728">
-                                   <elements/>
+                              <DOMFrame index="360" duration="240" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_cauldron.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="232.8" ty="347.65"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="90.2" y="95.35"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
