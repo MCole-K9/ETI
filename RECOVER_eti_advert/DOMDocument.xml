@@ -5,6 +5,7 @@
      </folders>
      <symbols>
           <Include href="eti_cauldron.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394301c-000002d1" lastModified="1670656028"/>
+          <Include href="eti_list_paper.svg.xml" itemIcon="1" loadImmediate="false" itemID="639569eb-00000021" lastModified="1670736363"/>
           <Include href="eti_phone_keyboard.svg.xml" itemIcon="1" loadImmediate="false" itemID="63956297-0000000d" lastModified="1670734487"/>
           <Include href="eti_phone_screen.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394242e-000002be" lastModified="1670652974"/>
           <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
@@ -14,7 +15,7 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="757" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="550" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
@@ -296,8 +297,57 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="soup_timelines" color="#FF4FFF" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="soup_bubbles" color="#FF0000" parentLayerIndex="9" autoNamed="false">
+                    <DOMLayer name="list_paper" color="#669900" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="528" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="528" duration="8" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="8000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499904" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="7000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-448.65" next="0,-448.65" previous="0,-448.65" roving="0" timevalue="7000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_list_paper.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="353.8" ty="487.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="130.2" y="213.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="536" duration="54" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_list_paper.svg" symbolType="graphic" centerPoint3DX="484" centerPoint3DY="244" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="353.8" ty="30.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="130.2" y="213.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="590" duration="3" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="3000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499904" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,298" next="0,298" previous="0,298" roving="0" timevalue="2000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="2000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_list_paper.svg" symbolType="graphic" centerPoint3DX="484" centerPoint3DY="244" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="353.8" ty="30.6"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="130.2" y="213.4"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="593" duration="307" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="soup_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="10" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="11" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
@@ -306,7 +356,7 @@
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="eti_soup_bubble.svg" symbolType="graphic" loop="loop">
                                              <matrix>
-                                                  <Matrix tx="315.25" ty="298.25"/>
+                                                  <Matrix tx="347.25" ty="361.25"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point x="16.75" y="16.75"/>
@@ -319,14 +369,58 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="soup" color="#FF800A" parentLayerIndex="9" autoNamed="false">
+                    <DOMLayer name="middle_soup_bubble" color="#FF0000" parentLayerIndex="11" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="360" duration="240" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="eti_soup.svg" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="eti_soup_bubble.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="293.25" ty="376.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="16.75" y="16.75"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="600" duration="300" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="left_soup_bubble" color="#FF0000" parentLayerIndex="11" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="360" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="360" duration="240" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_soup_bubble.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="252.25" ty="376.25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="16.75" y="16.75"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="600" duration="300" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="soup" color="#FF800A" parentLayerIndex="10" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="360" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="360" duration="240" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_soup.svg" selected="true" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="257.05" ty="374.55"/>
                                              </matrix>
@@ -341,7 +435,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="cauldron" color="#009999" parentLayerIndex="9" autoNamed="false">
+                    <DOMLayer name="cauldron" color="#009999" parentLayerIndex="10" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
