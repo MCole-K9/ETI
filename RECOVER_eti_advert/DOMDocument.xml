@@ -16,7 +16,7 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="426" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="899" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
@@ -174,10 +174,25 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="keyboard_mask" color="#9933CC" parentLayerIndex="4" locked="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="chat_timelines" color="#FF4FFF" parentLayerIndex="4" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="test_mask" color="#FF800A" parentLayerIndex="5" locked="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="900" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="chat_bubble" color="#9933CC" parentLayerIndex="6" locked="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="879" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="keyboard_mask" color="#9933CC" parentLayerIndex="4" locked="true" autoNamed="false" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -191,9 +206,12 @@
                                         </DOMShape>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="300" duration="579" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="keyboard" color="#00FFFF" parentLayerIndex="5" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="keyboard" color="#00FFFF" parentLayerIndex="8" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="219" keyMode="9728">
                                    <elements/>
@@ -223,7 +241,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="300" duration="600" keyMode="9728">
+                              <DOMFrame index="300" duration="579" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -375,7 +393,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="508" duration="396" keyMode="9728">
+                              <DOMFrame index="508" duration="371" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -426,16 +444,19 @@
                               <DOMFrame index="515" duration="86" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="601" duration="300" keyMode="9728">
+                              <DOMFrame index="601" duration="278" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="soup_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="11" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="mask_right" color="#00FFFF" parentLayerIndex="12" locked="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="14" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="mask_right" color="#00FFFF" parentLayerIndex="15" locked="true" autoNamed="false" layerType="mask">
                          <frames>
-                              <DOMFrame index="0" duration="904" keyMode="9728">
+                              <DOMFrame index="0" duration="376" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="376" duration="41" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -452,7 +473,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="16" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="376" keyMode="9728">
                                    <elements/>
@@ -486,14 +507,17 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="417" duration="468" keyMode="9728">
+                              <DOMFrame index="417" duration="462" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mask_middle" color="#00FFFF" parentLayerIndex="12" locked="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="mask_middle" color="#00FFFF" parentLayerIndex="15" locked="true" autoNamed="false" layerType="mask">
                          <frames>
-                              <DOMFrame index="0" duration="904" keyMode="9728">
+                              <DOMFrame index="0" duration="363" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="363" duration="54" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -511,7 +535,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="middle_soup_bubble" color="#FF0000" parentLayerIndex="15" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="middle_soup_bubble" color="#FF0000" parentLayerIndex="18" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="363" keyMode="9728">
                                    <elements/>
@@ -545,14 +569,17 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="415" duration="485" keyMode="9728">
+                              <DOMFrame index="415" duration="464" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mask_left" color="#00FFFF" parentLayerIndex="12" locked="true" current="true" isSelected="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="mask_left" color="#00FFFF" parentLayerIndex="15" locked="true" autoNamed="false" layerType="mask">
                          <frames>
-                              <DOMFrame index="0" duration="904" keyMode="9728">
+                              <DOMFrame index="0" duration="371" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="371" duration="38" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -570,7 +597,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="left_soup_bubble" color="#FF0000" parentLayerIndex="17" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="left_soup_bubble" color="#FF0000" parentLayerIndex="20" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="371" keyMode="9728">
                                    <elements/>
@@ -604,12 +631,12 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="409" duration="491" keyMode="9728">
+                              <DOMFrame index="409" duration="470" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="soup" color="#FF800A" parentLayerIndex="11" locked="true" autoNamed="false">
+                    <DOMLayer name="soup" color="#FF800A" parentLayerIndex="14" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
@@ -626,12 +653,12 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="300" keyMode="9728">
+                              <DOMFrame index="600" duration="279" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="cauldron" color="#009999" parentLayerIndex="11" locked="true" autoNamed="false">
+                    <DOMLayer name="cauldron" color="#009999" parentLayerIndex="14" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
@@ -665,7 +692,7 @@
                     </DOMLayer>
                     <DOMLayer name="base_bg" color="#00FFFF" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="900" keyMode="9728">
+                              <DOMFrame index="0" duration="879" keyMode="9728">
                                    <elements>
                                         <DOMGroup>
                                              <members>
