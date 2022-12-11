@@ -10,12 +10,13 @@
           <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
           <Include href="eti_phone.svg.xml" itemIcon="1" loadImmediate="false" itemID="63941d80-0000029f" lastModified="1670651264"/>
           <Include href="eti_soup_bubble.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394336e-000002d6" lastModified="1670656878"/>
+          <Include href="eti_soup.svg.xml" itemIcon="1" loadImmediate="false" itemID="63956496-00000015" lastModified="1670734998"/>
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="268" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="757" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="15" keyMode="9728">
@@ -171,7 +172,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="keyboard_mask" color="#9933CC" parentLayerIndex="4" locked="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="900" keyMode="9728">
@@ -190,7 +191,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="keyboard" color="#00FFFF" parentLayerIndex="5" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="keyboard" color="#00FFFF" parentLayerIndex="5" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="219" keyMode="9728">
                                    <elements/>
@@ -295,7 +296,8 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="soup_bubbles" color="#FF0000" autoNamed="false">
+                    <DOMLayer name="soup_timelines" color="#FF4FFF" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="soup_bubbles" color="#FF0000" parentLayerIndex="9" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
@@ -317,7 +319,29 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="cauldron" color="#009999" autoNamed="false">
+                    <DOMLayer name="soup" color="#FF800A" parentLayerIndex="9" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="360" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="360" duration="240" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_soup.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="257.05" ty="374.55"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="56.95" y="9.45"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="600" duration="300" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="cauldron" color="#009999" parentLayerIndex="9" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
