@@ -5,6 +5,7 @@
      </folders>
      <symbols>
           <Include href="eti_cauldron.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394301c-000002d1" lastModified="1670656028"/>
+          <Include href="eti_phone_keyboard.svg.xml" itemIcon="1" loadImmediate="false" itemID="63956297-0000000d" lastModified="1670734487"/>
           <Include href="eti_phone_screen.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394242e-000002be" lastModified="1670652974"/>
           <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
           <Include href="eti_phone.svg.xml" itemIcon="1" loadImmediate="false" itemID="63941d80-0000029f" lastModified="1670651264"/>
@@ -12,7 +13,7 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="899" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="268" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
@@ -171,6 +172,59 @@
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="keyboard_mask" color="#9933CC" parentLayerIndex="4" locked="true" autoNamed="false" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="900" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#9298FD"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!8542 5500|12462 5500!12462 5500|12462 8200!12462 8200|8542 8200!8542 8200|8542 5500"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="keyboard" color="#00FFFF" parentLayerIndex="5" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="219" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="219" duration="6" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="6000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.499814" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-137" next="0,-137" previous="0,-137" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_phone_keyboard.svg" selected="true" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="427" ty="412.1"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="98" y="67.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="225" duration="75" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_phone_keyboard.svg" symbolType="graphic" centerPoint3DX="525" centerPoint3DY="344.1" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="427" ty="277"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="98" y="67.1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="300" duration="600" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="phone_screen" color="#FF800A" parentLayerIndex="4" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="185" keyMode="9728">
@@ -241,7 +295,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="soup_bubbles" color="#FF0000" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="soup_bubbles" color="#FF0000" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="360" keyMode="9728">
                                    <elements/>
