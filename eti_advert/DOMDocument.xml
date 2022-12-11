@@ -16,7 +16,7 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="319" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="426" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
@@ -433,7 +433,26 @@
                     </DOMLayer>
                     <DOMLayer name="soup_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="11" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="12" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mask_right" color="#00FFFF" parentLayerIndex="12" locked="true" autoNamed="false" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="904" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#9298FD"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!7686 7419S2[7686 7560 7288 7686!7288 7686[6892 7813 6330 7852!6330 7852[5768 7890 5370 7818!5370 7818[#13DF.6C #1E56.9F 5006.5 7680!5006.5 7680|4980 7680!4980 7680|4980 7638.5!4980 7638.5[4974 #1DC6.5A 4974 7605!4974 7605[4974 #1DA3.A5
+ 4980 7570.5!4980 7570.5|4980 7270!4980 7270|3670 7270!3670 7270|3670 4310!3670 4310|8710 4310!8710 4310|8710 7270!8710 7270|7680 7270!7680 7270|7680 7385.5!7680 7385.5[7686 #1CE9.AE 7686 7419"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="376" keyMode="9728">
                                    <elements/>
@@ -472,7 +491,27 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="middle_soup_bubble" color="#FF0000" parentLayerIndex="12" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mask_middle" color="#00FFFF" parentLayerIndex="12" locked="true" autoNamed="false" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="904" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#9298FD"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!7686 7419S2[7686 7560 7288 7686!7288 7686[6892 7813 6330 7852!6330 7852[5768 7890 5370 7818!5370 7818[#13DF.6C #1E56.9F 5006.5 7680!5006.5 7680|4980 7680!4980 7680|4980 7638.5!4980 7638.5[4974 #1DC6.5A 4974 7605!4974 7605[4974 #1DA3.A5
+ 4980 7570.5!4980 7570.5|4980 7270!4980 7270|3670 7270!3670 7270|3670 4310!3670 4310|8710 4310!8710 4310|8710 7270!8710 7270|7680 7270!7680 7270|7680 7385.5!7680 7385.5[7686 #1CE9.AE 7686 7419"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="middle_soup_bubble" color="#FF0000" parentLayerIndex="15" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="363" keyMode="9728">
                                    <elements/>
@@ -480,7 +519,7 @@
                               <DOMFrame index="363" duration="43" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="30000" Version="1" duration="43000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499255" xformPtYOffsetPct="0.499255" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="3090,0" previous="-7305,0" roving="0" timevalue="17000"/><Keyframe anchor="0,0" next="1917,0" previous="-3361,0" roving="0" timevalue="25000"/><Keyframe anchor="0,0" next="4437,0" previous="-3719,0" roving="0" timevalue="36000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="42000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-80.6794" next="3090,-92.7478" previous="-7305,-52.3167" roving="0" timevalue="17000"/><Keyframe anchor="0,-68.7533" next="1917,-76.2909" previous="-3361,-55.5268" roving="0" timevalue="25000"/><Keyframe anchor="0,-149.761" next="4437,-203.172" previous="-3719,-104.998" roving="0" timevalue="36000"/><Keyframe anchor="0,-172.866" next="0,-172.866" previous="0,-172.866" roving="0" timevalue="42000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="eti_soup_bubble.svg" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="eti_soup_bubble.svg" selected="true" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="306.25" ty="426.25"/>
                                              </matrix>
@@ -511,7 +550,27 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="left_soup_bubble" color="#FF0000" parentLayerIndex="12" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mask_left" color="#00FFFF" parentLayerIndex="12" locked="true" current="true" isSelected="true" autoNamed="false" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="904" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#9298FD"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="
+!7686 7419S2[7686 7560 7288 7686!7288 7686[6892 7813 6330 7852!6330 7852[5768 7890 5370 7818!5370 7818[#13DF.6C #1E56.9F 5006.5 7680!5006.5 7680|4980 7680!4980 7680|4980 7638.5!4980 7638.5[4974 #1DC6.5A 4974 7605!4974 7605[4974 #1DA3.A5
+ 4980 7570.5!4980 7570.5|4980 7270!4980 7270|3670 7270!3670 7270|3670 4310!3670 4310|8710 4310!8710 4310|8710 7270!8710 7270|7680 7270!7680 7270|7680 7385.5!7680 7385.5[7686 #1CE9.AE 7686 7419"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="left_soup_bubble" color="#FF0000" parentLayerIndex="17" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="371" keyMode="9728">
                                    <elements/>
