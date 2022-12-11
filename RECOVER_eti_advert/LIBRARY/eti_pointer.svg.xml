@@ -1,8 +1,8 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="eti_pointer.svg" itemID="63956ec1-00000026" symbolType="graphic" lastModified="1670737601">
   <timeline>
-    <DOMTimeline name="eti_pointer.svg">
+    <DOMTimeline name="eti_pointer.svg" layerDepthEnabled="true">
       <layers>
-        <DOMLayer name="eti_pointer.svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="eti_pointer_svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
