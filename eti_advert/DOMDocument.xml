@@ -10,12 +10,13 @@
           <Include href="eti_phone_screen.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394242e-000002be" lastModified="1670652974"/>
           <Include href="eti_phone_screen.svg Assets/SVGRoot/text20347.xml" loadImmediate="false" itemID="6394242e-000002bd" lastModified="1670652974"/>
           <Include href="eti_phone.svg.xml" itemIcon="1" loadImmediate="false" itemID="63941d80-0000029f" lastModified="1670651264"/>
+          <Include href="eti_pointer.svg.xml" itemIcon="1" loadImmediate="false" itemID="63956ec1-00000026" lastModified="1670737601"/>
           <Include href="eti_soup_bubble.svg.xml" itemIcon="1" loadImmediate="false" itemID="6394336e-000002d6" lastModified="1670656878"/>
           <Include href="eti_soup.svg.xml" itemIcon="1" loadImmediate="false" itemID="63956496-00000015" lastModified="1670734998"/>
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="550" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="485" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
