@@ -16,7 +16,7 @@
           <Include href="eti_stuff.svg.xml" itemIcon="1" loadImmediate="false" itemID="63919aac-0000001b" lastModified="1670486700"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="319" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="370" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="txt_AdQuestions" color="#9933CC" parentLayerIndex="0" autoNamed="false">
@@ -433,7 +433,29 @@
                     </DOMLayer>
                     <DOMLayer name="soup_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="11" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="12" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Layer_7" color="#00FFFF" parentLayerIndex="12" current="true" isSelected="true" layerType="mask">
+                         <frames>
+                              <DOMFrame index="0" duration="904" keyMode="9728">
+                                   <elements>
+                                        <DOMShape selected="true" isFloating="true">
+                                             <matrix>
+                                                  <Matrix a="1.03366088867188" b="-0.09765625" tx="-10.35" ty="97.85"/>
+                                             </matrix>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#9298FD"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!7630 6230S2[7630 6371 7243 6470!7243 6470[6857 6570 6310 6570!6310 6570[5763 6570 5376 6470!5376 6470[4990 6371 4990 6230!4990 6230[4990 6089 5376 5989!5376 5989[5763 5890 6310 5890!6310 5890[6857 5890 7243 5989!7243 5989[7630 6089 7630
+ 6230"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="right_soup_bubble" color="#FF0000" parentLayerIndex="13" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="376" keyMode="9728">
                                    <elements/>
