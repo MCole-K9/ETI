@@ -1,0 +1,64 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="eti_bat.svg" itemID="6396ce5b-00000024" symbolType="graphic" lastModified="1670827611">
+  <timeline>
+    <DOMTimeline name="eti_bat.svg" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="eti_bat_svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#D38D5F"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!2896 0[3317 81 3421 447!3421 447|1807 2196!1807 2196|816 2935!816 2935|427 3343!427 3343|485 3635!485 3635[259 3509 223 3481!223 3481[80 3368 0 3168!0 3168|291 3207!291 3207|680 2818!680 2818|1282 1866!1282 1866|2896 0"/>
+                            <Edge cubics="!2896 0(;3183,55 3353,208 3421,447q2896 0Q3317 81q3421 447);"/>
+                            <Edge cubics="!3421 447(;3421,447 1807,2196 1807,2196q3421 447 1807 2196);"/>
+                            <Edge cubics="!1807 2196(;1807,2196 816,2935 816,2935q1807 2196 816 2935);"/>
+                            <Edge cubics="!816 2935(;816,2935 427,3343 427,3343q816 2935 427 3343);"/>
+                            <Edge cubics="!427 3343(;427,3343 485,3635 485,3635q427 3343 485 3635);"/>
+                            <Edge cubics="!485 3635(;309,3537 123,3477 0,3168q485 3635Q259 3509q223 3481Q80 3368q0 3168);"/>
+                            <Edge cubics="!0 3168(;0,3168 291,3207 291,3207q0 3168 291 3207);"/>
+                            <Edge cubics="!291 3207(;291,3207 680,2818 680,2818q291 3207 680 2818);"/>
+                            <Edge cubics="!680 2818(;680,2818 1282,1866 1282,1866q680 2818 1282 1866);"/>
+                            <Edge cubics="!1282 1866(;1282,1866 2896,0 2896,0q1282 1866 2896 0);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#C87138"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!3293 293|1781 2002!1781 2002|754 2871!754 2871|273 3409!273 3409|177 3344!177 3344|485 3635!485 3635|427 3343!427 3343|816 2935!816 2935|1807 2196!1807 2196|3421 447!3421 447[3419 444 3364 364!3364 364[3329 314 3293 293"/>
+                            <Edge cubics="!3293 293(;3293,293 1781,2002 1781,2002q3293 293p1781 2002);"/>
+                            <Edge cubics="!1781 2002(;1781,2002 754,2871 754,2871q1781 2002 754 2871);"/>
+                            <Edge cubics="!754 2871(;754,2871 273,3409 273,3409q754 2871 273 3409);"/>
+                            <Edge cubics="!273 3409(;273,3409 177,3344 177,3344q273 3409 177 3344);"/>
+                            <Edge cubics="!177 3344(;177,3344 485,3635 485,3635q177 3344 485 3635);"/>
+                            <Edge cubics="!485 3635(;485,3635 427,3343 427,3343q485 3635 427 3343);"/>
+                            <Edge cubics="!427 3343(;427,3343 816,2935 816,2935q427 3343 816 2935);"/>
+                            <Edge cubics="!816 2935(;816,2935 1807,2196 1807,2196q816 2935 1807 2196);"/>
+                            <Edge cubics="!1807 2196(;1807,2196 3421,447 3421,447q1807 2196 3421 447);"/>
+                            <Edge cubics="!3421 447(;3378,396 3354,328 3293,293q3421 447Q3419 444q3364 364Q3329 314q3293 293);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
