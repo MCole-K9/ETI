@@ -74,6 +74,41 @@ include 'base.php';
         </tbody>
     </table>
 </section>
-
-
+<section id="activity-first" class="m-5">
+    <div class="border border-success rounded p-3">
+        <p class="bg-success rounded p-2 text-white font-bold" style="margin-top: -32px; width: fit-content">Activity</p>
+        <p class=""><strong>Identify the Homophones by the pair of definitions below</strong></p>
+        <div class="mb-3 row justify-content-between">
+            <label for="" class="col-sm-5 col-form-label">A large saltwater body, usually partly or wholly surrounded by land.</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="answer_one">
+            </div>
+        </div>
+        <div class="mb-3 row justify-content-between">
+            <label for="" class="col-sm-5 col-form-label">To perceive with the eyes; discern visually.</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="answer_two">
+            </div>
+        </div>
+        <div class="row justify-content-end mt-3 mx-1">
+            <button type="button" id="btnSubmit_Homophones" class="btn btn-primary w-25">Submit</button>
+        </div>
+    </div>
+</section>
+<script>
+   let btnSubmit_Homophones = document.getElementById('btnSubmit_Homophones');
+   btnSubmit_Homophones.addEventListener('click', function() { 
+    let answer_one = String(document.getElementById('answer_one').value);
+    let answer_two = String(document.getElementById('answer_two').value);
+    if (answer_one.toLowerCase() == 'sea' && answer_two.toLowerCase() == 'see') {
+        btnSubmit_Homophones.setAttribute('disabled', true);
+        btnSubmit_Homophones.classList.remove('btn-primary');
+        btnSubmit_Homophones.classList.add('btn-success');
+        btnSubmit_Homophones.textContent = 'Correct!';
+        }
+        else {
+            btnSubmit_Homophones.textContent = 'Incorrect Try Again';
+        }
+});
+</script>
 <?php endblock() ?>

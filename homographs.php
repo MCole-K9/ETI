@@ -79,6 +79,42 @@ include 'base.php';
         </tbody>
     </table>
 </section>
+<section id="activity-first" class="m-5">
+    <div class="border border-success rounded p-3">
+        <p class="bg-success rounded p-2 text-white font-bold" style="margin-top: -32px; width: fit-content">Activity</p>
+        <p class=""><strong>Identify the Homographs by the pair of definitions below</strong></p>
+        <div class="mb-3 row justify-content-between">
+            <label for="" class="col-sm-5 col-form-label">A public play area</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="answer_one">
+            </div>
+        </div>
+        <div class="mb-3 row justify-content-between">
+            <label for="" class="col-sm-5 col-form-label">To bring a vehicle to a stop and leave it temporarily.</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" id="answer_two">
+            </div>
+        </div>
+        <div class="row justify-content-end mt-3 mx-1">
+            <button type="button" class="btn btn-primary w-25" id="btnSubmit_Homographs">Submit</button>
+        </div>
+    </div>
+</section>
+<script>
+    let btnSubmit_Homographs = document.getElementById('btnSubmit_Homographs');
+    btnSubmit_Homographs.addEventListener('click', function() {
+    let answer_one = String(document.getElementById('answer_one').value);
+    let answer_two = String(document.getElementById('answer_two').value);
+    if (answer_one.toLowerCase() == 'park' && answer_two.toLowerCase() == 'park') {
+        btnSubmit_Homographs.setAttribute('disabled', true);
+        btnSubmit_Homographs.classList.add('btn-success');
+        btnSubmit_Homographs.classList.remove('btn-primary');
+        btnSubmit_Homographs.textContent = 'Correct!';
 
-
+        }
+        else {
+            btnSubmit_Homographs.textContent = 'Incorrect Try Again';
+        }
+});
+</script>
 <?php endblock() ?>

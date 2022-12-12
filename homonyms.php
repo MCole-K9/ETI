@@ -80,23 +80,41 @@ include 'base.php';
     </table>
     <!-- ref - https://qqeng.net/Learning/improve-your-english-by-learning-english-homonyms/ -->
 </section>
-<section id="activity-first" class="mt-5">
+<section id="activity-first" class="m-5">
     <div class="border border-success rounded p-3">
         <p class="bg-success rounded p-2 text-white font-bold" style="margin-top: -32px; width: fit-content">Activity</p>
         <p class=""><strong>Identify the Homonyms by the pair of definitions below</strong></p>
         <div class="mb-3 row justify-content-between">
             <label for="" class="col-sm-5 col-form-label">A Holding area for animals</label>
             <div class="col-sm-5">
-                <input type="text" class="form-control" id="">
+                <input type="text" class="form-control" id="answer_one">
             </div>
         </div>
         <div class="mb-3 row justify-content-between">
             <label for="" class="col-sm-5 col-form-label">A writing instrument</label>
             <div class="col-sm-5">
-                <input type="text" class="form-control" id="">
+                <input type="text" class="form-control" id="answer_two">
             </div>
+        </div>
+        <div class="row justify-content-end mt-3 mx-1">
+            <button type="button" class="btn btn-primary w-25" id="btnSubmit_Homonyms">Submit</button>
         </div>
     </div>
 </section>
-
+<script>
+    let btnSubmit_Homonyms = document.getElementById('btnSubmit_Homonyms');
+    btnSubmit_Homonyms.addEventListener('click', function() {
+    let answer_one = String(document.getElementById('answer_one').value);
+    let answer_two = String(document.getElementById('answer_two').value);
+    if (answer_one.toLowerCase() == 'pen' && answer_two.toLowerCase() == 'pen') {
+        btnSubmit_Homonyms.setAttribute('disabled', true);
+        btnSubmit_Homonyms.classList.add('btn-success');
+        btnSubmit_Homonyms.classList.remove('btn-primary');
+        btnSubmit_Homonyms.textContent = 'Correct!';
+        }
+        else {
+            btnSubmit_Homonyms.textContent = 'Incorrect Try Again';
+        }
+});
+</script>
 <?php endblock() ?>
