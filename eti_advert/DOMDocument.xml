@@ -41,7 +41,7 @@
           <Include href="Tween 8.xml" itemIcon="1" loadImmediate="false" itemID="639982d0-00000093" lastModified="1671004880"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="270" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="865" layerDepthEnabled="true">
                <layers>
                     <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="Layer_1" color="#00FFFF" parentLayerIndex="0">
@@ -298,7 +298,7 @@
                               <DOMFrame index="360" duration="240" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="279" keyMode="9728">
+                              <DOMFrame index="600" duration="266" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -333,7 +333,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -355,7 +355,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -377,7 +377,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -399,7 +399,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -421,7 +421,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -443,7 +443,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -465,12 +465,12 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="557" duration="322" keyMode="9728">
+                              <DOMFrame index="557" duration="309" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="explosion_timelines" color="#FF4FFF" parentLayerIndex="5" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="explosion_timelines" color="#FF4FFF" parentLayerIndex="5" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="explosion_highlight" color="#9933CC" parentLayerIndex="14" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="563" keyMode="9728">
@@ -8334,7 +8334,7 @@
                                         <Color alphaMultiplier="0.1484375"/>
                                    </frameColor>
                               </DOMFrame>
-                              <DOMFrame index="581" duration="339" keyMode="9728">
+                              <DOMFrame index="581" duration="285" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -10793,7 +10793,7 @@
                                         <Color alphaMultiplier="0.1484375"/>
                                    </frameColor>
                               </DOMFrame>
-                              <DOMFrame index="580" duration="340" keyMode="9728">
+                              <DOMFrame index="580" duration="286" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -12751,7 +12751,7 @@
                               <DOMFrame index="579" duration="41" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="620" duration="300" keyMode="9728">
+                              <DOMFrame index="620" duration="246" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -12926,7 +12926,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="508" duration="371" keyMode="9728">
+                              <DOMFrame index="508" duration="358" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -12977,7 +12977,7 @@
                               <DOMFrame index="515" duration="85" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="279" keyMode="9728">
+                              <DOMFrame index="600" duration="266" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -12999,14 +12999,14 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="279" keyMode="9728">
+                              <DOMFrame index="600" duration="266" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="soup_timelines" color="#FF4FFF" parentLayerIndex="5" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="soup_timelines" color="#FF4FFF" parentLayerIndex="5" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="22" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="mask_right" color="#00FFFF" parentLayerIndex="23" locked="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="mask_right" color="#00FFFF" parentLayerIndex="23" locked="true" current="true" isSelected="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="376" keyMode="9728">
                                    <elements/>
@@ -13062,7 +13062,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="417" duration="462" keyMode="9728">
+                              <DOMFrame index="417" duration="449" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13124,7 +13124,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="415" duration="464" keyMode="9728">
+                              <DOMFrame index="415" duration="451" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13186,7 +13186,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="409" duration="470" keyMode="9728">
+                              <DOMFrame index="409" duration="457" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13208,7 +13208,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="279" keyMode="9728">
+                              <DOMFrame index="600" duration="266" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13235,12 +13235,12 @@
                     <DOMLayer name="first_scene_timelines" color="#9933CC" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="anger_lines" color="#FF4FFF" parentLayerIndex="32" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="879" keyMode="9728">
+                              <DOMFrame index="0" duration="866" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="loading_bubbles" color="#669900" parentLayerIndex="32" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="loading_bubbles" color="#669900" parentLayerIndex="32" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="242" keyMode="9728">
                                    <elements/>
@@ -13399,7 +13399,7 @@
                                         </DOMShape>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="266" duration="659" keyMode="9728">
+                              <DOMFrame index="266" duration="600" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13518,7 +13518,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="300" duration="620" keyMode="9728">
+                              <DOMFrame index="300" duration="566" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13639,7 +13639,7 @@
                               <DOMFrame index="142" duration="158" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="300" duration="579" keyMode="9728">
+                              <DOMFrame index="300" duration="566" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13669,11 +13669,11 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone_timelines" color="#FF4FFF" parentLayerIndex="32" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="chat_timelines" color="#FF4FFF" parentLayerIndex="38" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="phone_timelines" color="#FF4FFF" parentLayerIndex="32" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="chat_timelines" color="#FF4FFF" parentLayerIndex="38" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="test_mask" color="#FF800A" parentLayerIndex="39" locked="true" autoNamed="false" layerType="mask">
                          <frames>
-                              <DOMFrame index="0" duration="900" keyMode="9728">
+                              <DOMFrame index="0" duration="866" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13697,7 +13697,7 @@
                                         </DOMShape>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="300" duration="579" keyMode="9728">
+                              <DOMFrame index="300" duration="566" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13732,7 +13732,7 @@
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="300" duration="579" keyMode="9728">
+                              <DOMFrame index="300" duration="566" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -13802,21 +13802,21 @@
                               <DOMFrame index="300" duration="300" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="600" duration="279" keyMode="9728">
+                              <DOMFrame index="600" duration="266" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="chat_bubble" color="#9933CC" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="879" keyMode="9728">
+                              <DOMFrame index="0" duration="866" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="base_bg" color="#00FFFF" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="879" keyMode="9728">
+                              <DOMFrame index="0" duration="866" keyMode="9728">
                                    <elements>
                                         <DOMGroup>
                                              <members>
