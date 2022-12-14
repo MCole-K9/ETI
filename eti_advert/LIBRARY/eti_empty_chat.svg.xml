@@ -1,0 +1,38 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="eti_empty_chat.svg" itemID="6399864f-000000a5" symbolType="graphic" lastModified="1671005775">
+  <timeline>
+    <DOMTimeline name="eti_empty_chat.svg" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="eti_empty_chat_svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#CCCCCC"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!135 0|604 0!604 0[660 0 700 40!700 40[739 80 739 136!739 136|739 327!739 327[739 383 700 423!700 423[660 463 604 463!604 463|135 463!135 463[79 463 39 423!39 423[0 383 0 327!0 327|0 136!0 136[0 80 39 40!39 40[79 0 135 0"/>
+                        <Edge cubics="!135 0(;135,0 604,0 604,0p135 0q604 0);"/>
+                        <Edge cubics="!604 0(;679,0 739,61 739,136q604 0Q660 0q700 40Q739 80q739 136);"/>
+                        <Edge cubics="!739 136(;739,136 739,327 739,327q739 136 739 327);"/>
+                        <Edge cubics="!739 327(;739,402 679,463 604,463q739 327Q739 383q700 423Q660 463q604 463);"/>
+                        <Edge cubics="!604 463(;604,463 135,463 135,463q604 463 135 463);"/>
+                        <Edge cubics="!135 463(;60,463 0,402 0,327q135 463Q79 463q39 423Q0 383q0 327);"/>
+                        <Edge cubics="!0 327(;0,327 0,136 0,136q0 327 0 136);"/>
+                        <Edge cubics="!0 136(;0,61 60,0 135,0q0 136Q0 80q39 40Q79 0q135 0);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
