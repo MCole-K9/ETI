@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" frameRate="30" currentTimeline="1" xflVersion="22.02" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 22.0 build 217" majorVersion="22" buildNumber="217" rulerVisible="true" pixelSnap="true" viewAngle3D="62.4108334222142" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="4A21DE26253E684180C6425DB0827D17">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" width="640" height="480" frameRate="30" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Windows" versionInfo="Saved by Animate Windows 19.2 build 405" majorVersion="19" minorVersion="2" buildNumber="405" rulerVisible="true" pixelSnap="true" viewAngle3D="62.4108334222142" vanishingPoint3DX="320" vanishingPoint3DY="240" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F" fileGUID="4A21DE26253E684180C6425DB0827D17">
      <folders>
           <DOMFolderItem name="eti_phone_screen.svg Assets" itemID="6394242e-000002ba"/>
           <DOMFolderItem name="eti_phone_screen.svg Assets/SVGRoot" itemID="6394242e-000002bb"/>
@@ -9,6 +9,7 @@
           <Include href="eti_iron.svg.xml" itemIcon="1" loadImmediate="false" itemID="6396ce26-0000001f" lastModified="1670827558"/>
           <Include href="eti_letter.svg.xml" itemIcon="1" loadImmediate="false" itemID="6396ce82-00000029" lastModified="1670827650"/>
           <Include href="eti_list_paper.svg.xml" itemIcon="1" loadImmediate="false" itemID="63957906-00000034" lastModified="1670740230"/>
+          <Include href="eti_man.svg.xml" itemIcon="1" loadImmediate="false" itemID="63996538-0000001a" lastModified="1670997304"/>
           <Include href="eti_nail.svg.xml" itemIcon="1" loadImmediate="false" itemID="6396cdb9-00000017" lastModified="1670827449"/>
           <Include href="eti_palm.svg.xml" itemIcon="1" loadImmediate="false" itemID="6396ceda-00000033" lastModified="1670827738"/>
           <Include href="eti_phone_keyboard.svg.xml" itemIcon="1" loadImmediate="false" itemID="63956297-0000000d" lastModified="1670734487"/>
@@ -23,10 +24,10 @@
           <Include href="eti_thought_bubble.svg.xml" itemIcon="1" loadImmediate="false" itemID="6396c4b4-00000011" lastModified="1670825140"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="781" layerDepthEnabled="true">
+          <DOMTimeline name="Scene 1" currentFrame="291" layerDepthEnabled="true">
                <layers>
-                    <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Layer_1" color="#00FFFF" parentLayerIndex="0" current="true" isSelected="true">
+                    <DOMLayer name="text_timelines" color="#00FFFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Layer_1" color="#00FFFF" parentLayerIndex="0">
                          <frames>
                               <DOMFrame index="0" duration="724" keyMode="9728">
                                    <elements/>
@@ -296,8 +297,8 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="chat_timelines" color="#FF4FFF" parentLayerIndex="5" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="phone_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="chat_timelines" color="#FF4FFF" parentLayerIndex="5" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="test_mask" color="#FF800A" parentLayerIndex="6" locked="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="900" keyMode="9728">
@@ -314,7 +315,10 @@
                     </DOMLayer>
                     <DOMLayer name="keyboard_mask" color="#9933CC" parentLayerIndex="5" locked="true" autoNamed="false" layerType="mask">
                          <frames>
-                              <DOMFrame index="0" duration="300" keyMode="9728">
+                              <DOMFrame index="0" duration="219" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="219" duration="81" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -727,7 +731,7 @@
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="soup_timelines" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="23" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="soup_bubbles" color="#009999" parentLayerIndex="23" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="mask_right" color="#00FFFF" parentLayerIndex="24" locked="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="376" keyMode="9728">
@@ -954,10 +958,22 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="character" color="#FF800A" autoNamed="false">
+                    <DOMLayer name="character" color="#FF800A" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="300" keyMode="9728">
+                              <DOMFrame index="0" duration="90" keyMode="9728">
                                    <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="90" duration="210" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="eti_man.svg" symbolType="graphic" loop="loop">
+                                             <matrix>
+                                                  <Matrix tx="-0.35" ty="126.45"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="101.35" y="202.55"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
                               </DOMFrame>
                               <DOMFrame index="300" duration="60" keyMode="9728">
                                    <elements/>
