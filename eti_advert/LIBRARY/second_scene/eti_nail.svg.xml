@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="second_scene/eti_nail.svg" itemID="6396cdb9-00000017" symbolType="graphic" lastModified="1670827449">
+  <timeline>
+    <DOMTimeline name="eti_nail.svg" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="eti_nail_svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#B3B3B3"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!2584 0|3079 481!3079 481|2804 509!2804 509|289 2749!289 2749|0 2791!0 2791|83 2447!83 2447|2543 317!2543 317|2584 0"/>
+                            <Edge cubics="!2584 0(;2584,0 3079,481 3079,481q2584 0p3079 481);"/>
+                            <Edge cubics="!3079 481(;3079,481 2804,509 2804,509q3079 481 2804 509);"/>
+                            <Edge cubics="!2804 509(;2804,509 289,2749 289,2749q2804 509 289 2749);"/>
+                            <Edge cubics="!289 2749(;289,2749 0,2791 0,2791q289 2749 0 2791);"/>
+                            <Edge cubics="!0 2791(;0,2791 83,2447 83,2447q0 2791 83 2447);"/>
+                            <Edge cubics="!83 2447(;83,2447 2543,317 2543,317q83 2447 2543 317);"/>
+                            <Edge cubics="!2543 317(;2543,317 2584,0 2584,0q2543 317 2584 0);"/>
+                          </edges>
+                        </DOMShape>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#F2F2F2"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle0="1" edges="!2584 0|2565 329!2565 329|113 2472!113 2472|0 2791!0 2791|282 2646!282 2646|2646 525!2646 525|2620 359!2620 359|2709 424!2709 424|2793 285!2793 285|2725 212!2725 212|2584 0"/>
+                            <Edge cubics="!2584 0(;2584,0 2565,329 2565,329q2584 0p2565 329);"/>
+                            <Edge cubics="!2565 329(;2565,329 113,2472 113,2472q2565 329 113 2472);"/>
+                            <Edge cubics="!113 2472(;113,2472 0,2791 0,2791q113 2472 0 2791);"/>
+                            <Edge cubics="!0 2791(;0,2791 282,2646 282,2646q0 2791 282 2646);"/>
+                            <Edge cubics="!282 2646(;282,2646 2646,525 2646,525q282 2646 2646 525);"/>
+                            <Edge cubics="!2646 525(;2646,525 2620,359 2620,359q2646 525 2620 359);"/>
+                            <Edge cubics="!2620 359(;2620,359 2709,424 2709,424q2620 359 2709 424);"/>
+                            <Edge cubics="!2709 424(;2709,424 2793,285 2793,285q2709 424 2793 285);"/>
+                            <Edge cubics="!2793 285(;2793,285 2725,212 2725,212q2793 285 2725 212);"/>
+                            <Edge cubics="!2725 212(;2725,212 2584,0 2584,0q2725 212 2584 0);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
