@@ -62,6 +62,9 @@ include 'base.php';
   </div>
 
 </section>
-
-
+<style>
+  #hero {
+    /*background-color: #9298FD;*/
+  }
+</style>
 <?php endblock(); ?>
