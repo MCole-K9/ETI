@@ -12,7 +12,7 @@
     <?php endblock();?>
 </head>
 <body>
-    <nav id="etiNav" class="navbar navbar-expand-lg bg-info shadow">
+    <nav id="etiNav" class="navbar navbar-expand-lg shadow">
     <div class="container">
         <a class="navbar-brand" href="index.php"><img id="navbarLogo"src="media/eti_grey.svg" alt="ETI Logo"></svg> English Training Institute</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,9 +59,9 @@
  }
 
  .navbar {
-    backgroung-color: #9298FD;
+    background-color: #4A53FC;
  }
- 
+
  #navbarLogo {
     height: 48px;
     width: 48px;
