@@ -33,7 +33,7 @@
                     <a class="nav-link"  href="developers.php">Developers</a>
                 </li>
                 <li class="nav-item hover">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contactus.php">Contact</a>
                 </li>  
             </ul>
         </div>
