@@ -8,7 +8,7 @@ include 'base.php';
 <?php startblock("content") ?>
 <div class="container">
 </div class="row">
-<div class="mt-3 col-12 col-lg-5">
+<div class="mt-3 col">
     <h2 class="text-center">Mission</h2>
     <p>
         The English Training Interactive LLC (ETI) was founded with awareness of the necessity and utility of English as a lingua franca in the modern world, 
@@ -19,7 +19,7 @@ include 'base.php';
     </p>
 </div>
 
-<div class="mt-3 col-12 col-lg-5">
+<div class="mt-3 col">
     <h2 class="text-center ">Vision</h2>
     <p >
         Through the evidence-based and assiduous application of the tools, methods, and expertise we have, we aim to transform the capcity for thinking and 
