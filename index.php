@@ -15,8 +15,9 @@ include 'base.php';
     <h5 class="lh-base">Welcome to English Training<br>Interactive</h5>
   </div>
   <div class="col-12 col-lg-7">
-    <div class="placeholder w-640 h-480"></div>
-    <!-- video / ad goes here -->
+    <video width="640" height="480" controls>
+      <source src="media/eti_advert.mp4" type="video/mp4">
+    </video>
   </div>
 </section>
 
