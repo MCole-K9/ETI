@@ -1,0 +1,62 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="first_scene/eti_phone_noise1.svg" itemID="639969a3-0000004c" symbolType="graphic" lastModified="1670998435">
+  <timeline>
+    <DOMTimeline name="eti_phone_noise1.svg" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="eti_phone_noise1_svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!0 2480|320 2470!320 2470|1480 530!1480 530|970 0!970 0|0 2480"/>
+                        <Edge cubics="!0 2480(;0,2480 320,2470 320,2470p0 2480q320 2470);"/>
+                        <Edge cubics="!320 2470(;320,2470 1480,530 1480,530q320 2470 1480 530);"/>
+                        <Edge cubics="!1480 530(;1480,530 970,0 970,0q1480 530 970 0);"/>
+                        <Edge cubics="!970 0(;970,0 0,2480 0,2480q970 0 0 2480);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!370 2660[460 2580 2000 880!2000 880|2400 1350!2400 1350|500 2820!500 2820|370 2660"/>
+                        <Edge cubics="!370 2660(;460,2580 2000,880 2000,880q370 2660Q460 2580q2000 880);"/>
+                        <Edge cubics="!2000 880(;2000,880 2400,1350 2400,1350q2000 880 2400 1350);"/>
+                        <Edge cubics="!2400 1350(;2400,1350 500,2820 500,2820q2400 1350 500 2820);"/>
+                        <Edge cubics="!500 2820(;500,2820 370,2660 370,2660q500 2820 370 2660);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!540 2990[710 2930 2440 2120!2440 2120|2480 2760!2480 2760|610 3230!610 3230|540 2990"/>
+                        <Edge cubics="!540 2990(;710,2930 2440,2120 2440,2120q540 2990Q710 2930q2440 2120);"/>
+                        <Edge cubics="!2440 2120(;2440,2120 2480,2760 2480,2760q2440 2120 2480 2760);"/>
+                        <Edge cubics="!2480 2760(;2480,2760 610,3230 610,3230q2480 2760 610 3230);"/>
+                        <Edge cubics="!610 3230(;610,3230 540,2990 540,2990q610 3230 540 2990);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

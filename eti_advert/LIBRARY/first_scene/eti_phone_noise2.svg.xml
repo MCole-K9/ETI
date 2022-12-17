@@ -1,0 +1,76 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="first_scene/eti_phone_noise2.svg" itemID="639969ba-0000004e" symbolType="graphic" lastModified="1670998458">
+  <timeline>
+    <DOMTimeline name="eti_phone_noise2.svg" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="eti_phone_noise2_svg" color="#00FFFF" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!375 2350|593 2562!593 2562|1926 691!1926 691|1309 511!1309 511|375 2350"/>
+                        <Edge cubics="!375 2350(;375,2350 593,2562 593,2562p375 2350q593 2562);"/>
+                        <Edge cubics="!593 2562(;593,2562 1926,691 1926,691q593 2562 1926 691);"/>
+                        <Edge cubics="!1926 691(;1926,691 1309,511 1309,511q1926 691 1309 511);"/>
+                        <Edge cubics="!1309 511(;1309,511 375,2350 375,2350q1309 511 375 2350);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!726 2572|2170 1401!2170 1401|2595 1908!2595 1908|696 2903!696 2903|726 2572"/>
+                        <Edge cubics="!726 2572(;726,2572 2170,1401 2170,1401p726 2572q2170 1401);"/>
+                        <Edge cubics="!2170 1401(;2170,1401 2595,1908 2595,1908q2170 1401 2595 1908);"/>
+                        <Edge cubics="!2595 1908(;2595,1908 696,2903 696,2903q2595 1908 696 2903);"/>
+                        <Edge cubics="!696 2903(;696,2903 726,2572 726,2572q696 2903 726 2572);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!852 2957|2439 2503!2439 2503|2733 2989!2733 2989|742 3213!742 3213|852 2957"/>
+                        <Edge cubics="!852 2957(;852,2957 2439,2503 2439,2503p852 2957q2439 2503);"/>
+                        <Edge cubics="!2439 2503(;2439,2503 2733,2989 2733,2989q2439 2503 2733 2989);"/>
+                        <Edge cubics="!2733 2989(;2733,2989 742,3213 742,3213q2733 2989 742 3213);"/>
+                        <Edge cubics="!742 3213(;742,3213 852,2957 852,2957q742 3213 852 2957);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#6666FF"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!0 2318|273 2283!273 2283|929 0!929 0|274 113!274 113|0 2318"/>
+                        <Edge cubics="!0 2318(;0,2318 273,2283 273,2283p0 2318q273 2283);"/>
+                        <Edge cubics="!273 2283(;273,2283 929,0 929,0q273 2283 929 0);"/>
+                        <Edge cubics="!929 0(;929,0 274,113 274,113q929 0 274 113);"/>
+                        <Edge cubics="!274 113(;274,113 0,2318 0,2318q274 113 0 2318);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
