@@ -15,7 +15,7 @@
     <nav id="etiNav" class="navbar navbar-expand-lg shadow">
     <div class="container">
         <a class="navbar-brand logo-text" href="index.php"><img id="navbarLogo"src="media/eti_grey.svg" alt="ETI Logo"></svg> English Training Interactive</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topics-section" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -23,9 +23,15 @@
                 <li class="nav-item hover">
                     <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
-                <li class="nav-item hover">
-                    <a class="nav-link" href="#">Topics</a> 
-                    <!-- Thinking of making this a dropdown menu -->
+                <li class="nav-item dropdown hover">
+                    <a class="nav-link dropdown-toggle" href="#" id="topics-section" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a> 
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="homophones.php">Homophones</a>
+                        <a class="dropdown-item" href="homographs.php">Homographs</a>
+                        <a class="dropdown-item" href="homonyms.php">Homonyms</a>
+                        <a class="dropdown-item" href="resources.php">Further Reading</a>
+                        <a class="dropdown-item" href="homonymvideos.php">Videos</a>
+                    </div>
                 </li>
                 <li class="nav-item hover">
                     <a class="nav-link"  href="about.php">About</a>
