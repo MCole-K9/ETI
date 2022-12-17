@@ -18,15 +18,15 @@
     </div>
 
     <div class="card mx-5 bordered shadow fadeInBottom anim-delay">
-      <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+      <img src="https://techunwrapped.com/wp-content/uploads/2022/04/Anonymous-keeps-up-the-pressure-on-Russia.jpg" class="card-img-top" alt="...">
       <div class="card-body fadeInBottom anim-delay">
         <h5 class="card-title">Elliot Morrison</h5>
         <p class="card-text"><b>Full Stack Web Developer Extraordinaire </b>
         <br> - 100+ Years of javascript/typescript experience 
         <br> - 100+ Years of experience with every js framework in existence
-        <br> - 100+ Years of experience with every language under the sun
+        <br> - 100+ Years of experience with every programming language under the sun
         <br> - 100+ Years of experience with every database under the sun
-        <br> - Somehow still alive and kicking
+        <br> - Somehow still alive
         <br> - "I can do all things through StackOverflow who strengthens me" - Elliot Morrison 2022
       </p>
       </div>
@@ -41,11 +41,6 @@
     </div>
   </div>
   
-<video width="400" controls>
-  <source src="eti_advert_1.mp4" type="video/mp4">
-  <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
-  Your browser does not support HTML video.
-</video>
 <?php endblock(); ?>
 <style>
   .anim-delay {
