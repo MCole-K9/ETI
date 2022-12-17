@@ -26,10 +26,10 @@
     </div>
 
     <div class="card bordered shadow fadeInBottom anim-delay-2">
-      <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+      <img src="https://i.imgur.com/WBI28n9.jpeg" class="card-img-top" alt="...">
       <div class="card-body fadeInBottom anim-delay-2">
         <h5 class="card-title">Khalid Sheriff</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text">Many dubious articles have been offered in attempts to prove the existence of Khalid, including anecdotal claims of sightings as well as alleged video and audio recordings, photographs, and casts of large footprints. Some are known or admitted hoaxes. </br></br> Specializes in "figuring it out, at the end of the day".</p>
       </div>
     </div>
   </div>

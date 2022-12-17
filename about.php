@@ -7,7 +7,7 @@ include 'base.php';
 
 <?php startblock("content") ?>
 
-<section>
+<section class="mt-3">
     <h2>Mission</h2>
     <p>
         The English Training Institute (ETI) was founded with awareness of the necessity and utility of English as a lingua franca in the modern world, 
@@ -18,10 +18,13 @@ include 'base.php';
     </p>
 </section>
 
-<section>
+<section class="">
     <h2>Vision</h2>
     <p>
-        We envision
+        Through the evidence-based and assiduous application of the tools, methods, and expertise we have, we aim to transform the capcity for thinking and 
+        communicating using the English Language on a national level. Our efforts will, in the end, concretely affect the knowledge of our students, and result 
+        in a country of learned, eloquent writers, speakers, teachers, performers, and statesmen, leading to the overall enrichment of the country at the fundamental
+        level.
     </p>
 </section>
 
