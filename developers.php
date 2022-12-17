@@ -13,7 +13,7 @@
       <img src="https://picsum.photos/200" class="card-img-top" alt="...">
       <div class="card-body fadeInBottom">
         <h5 class="card-title">Matthew Cole</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text"><b>Student at the VTDI, pursuing a Bsc in Information communication and Technology</b></p>
       </div>
     </div>
 
@@ -21,8 +21,9 @@
       <img src="https://techunwrapped.com/wp-content/uploads/2022/04/Anonymous-keeps-up-the-pressure-on-Russia.jpg" class="card-img-top" alt="...">
       <div class="card-body fadeInBottom anim-delay">
         <h5 class="card-title">Elliot Morrison</h5>
-        <p class="card-text"><b>Full Stack Web Developer Extraordinaire </b>
-        <br> - 100+ Years of javascript/typescript experience 
+        <p class="card-text"><b>A Student at the VTDI, pursuing a Bsc in Information communication and Technology</b>
+        <br> - 100+ Years of javascript/typescript experience
+        <br> - Full Stack Web Developer Extraordinaire  
         <br> - 100+ Years of experience with every js framework in existence
         <br> - 100+ Years of experience with every programming language under the sun
         <br> - 100+ Years of experience with every database under the sun
@@ -36,6 +37,7 @@
       <img src="https://i.imgur.com/WBI28n9.jpeg" class="card-img-top" alt="...">
       <div class="card-body fadeInBottom anim-delay-2">
         <h5 class="card-title">Khalid Sheriff</h5>
+        <b>A Student at the VTDI, pursuing a Bsc in Information communication and Technology</b>
         <p class="card-text">Many dubious articles have been offered in attempts to prove the existence of Khalid, including anecdotal claims of sightings as well as alleged video and audio recordings, photographs, and casts of large footprints. Some are known or admitted hoaxes. </br></br> Specializes in "figuring it out, at the end of the day".</p>
       </div>
     </div>
