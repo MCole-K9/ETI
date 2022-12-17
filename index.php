@@ -15,8 +15,8 @@ include 'base.php';
     <h5 class="lh-base">Welcome to English Training<br>Interactive</h5>
   </div>
   <div class="col-12 col-lg-7">
-    <video width="640" height="480" controls>
-      <source src="media/eti_advert.mp4" type="video/mp4">
+    <video width="640" height="400" controls autoplay>
+      <source src="media/eti_advert_1.mp4" type="video/mp4">
       There is no reason on this earth why this video shouldn't
     </video>
   </div>

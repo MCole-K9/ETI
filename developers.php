@@ -23,14 +23,11 @@
         <h5 class="card-title">Elliot Morrison</h5>
         <p class="card-text"><b>Full Stack Web Developer Extraordinaire </b>
         <br> - 100+ Years of javascript/typescript experience 
-        <br> - 100+ Years of PHP experience
-        <br> - 100+ Years of C# experience
-        <br> - 100+ Years of Java experience
-        <br> - 100+ Years of C++ experience
-        <br> - 100+ Years of C experience
-        <br> - 100+ Years of HTML experience
-        <br> - 100+ Years of CSS experience
-        <br> - Somehow still alive and single
+        <br> - 100+ Years of experience with every js framework in existence
+        <br> - 100+ Years of experience with every language under the sun
+        <br> - 100+ Years of experience with every database under the sun
+        <br> - Somehow still alive and kicking
+        <br> - "I can do all things through StackOverflow who strengthens me" - Elliot Morrison 2022
       </p>
       </div>
     </div>
