@@ -14,7 +14,7 @@
 <body>
     <nav id="etiNav" class="navbar navbar-expand-lg shadow">
     <div class="container">
-        <a class="navbar-brand logo-text" href="index.php"><img id="navbarLogo"src="media/eti_grey.svg" alt="ETI Logo"></svg> English Training Interactive</a>
+        <a class="navbar-brand logo-text" href="index.php"><img id="navbarLogo" src="media/eti_grey.svg" alt="ETI Logo"/> English Training Interactive</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topics-section" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,7 +56,6 @@
     <?php startblock("scripts");?>
     <?php endblock();?>
 </body>
-</html>
 <style>
  .hover:hover {
     background-color: #6E75FD;
@@ -86,3 +85,4 @@
     margin: 0;
  }
 </style>
+</html>

@@ -11,12 +11,14 @@ include 'base.php';
 <section id="hero" class="row mt-3 mt-lg-5 ">
   <div class="col-12 col-lg-5 text-center text-lg-start">
     <h1 class="lh-base ">Having Trouble<br>With English? </h1>
-    <h3>Look No Further</h2>
+    <h3>Look No Further</h3>
     <h5 class="lh-base">Welcome to English Training<br>Interactive</h5>
   </div>
   <div class="col-12 col-lg-7">
-    <div class="placeholder w-640 h-480"></div>
-    <!-- video / ad goes here -->
+    <video width="640" height="480" controls>
+      <source src="media/eti_advert.mp4" type="video/mp4">
+      There is no reason on this earth why this video shouldn't
+    </video>
   </div>
 </section>
 
@@ -27,7 +29,6 @@ include 'base.php';
     <p class="w-75">English is a  funny language and can be tricky at times; words that sound the same but mean different things, words spelled the same but sound and differ in meaning and many other principles. we at the E.T.I. aim to make these these things less confusing at to improve YOUR english proficiency </p>
 
 
-    </div>
   </div>
   <div class="col-12 col-lg-6">
     <h5 class="mb-3">Some of Our Topics</h5>
