@@ -7,19 +7,19 @@ include 'base.php';
 <?php endblock(); ?>
 
 <?php startblock("content"); ?>
-<div id="herobg" class="100vw">
-  <section id="hero" class="row mt-3 mt-lg-5 ">
-    <div class="col-12 col-lg-5 text-center text-lg-start">
-      <h1 class="lh-base ">Having Trouble<br>With English? </h1>
-      <h3>Look No Further</h2>
-      <h5 class="lh-base">Welcome to English Training<br>Interactive</h5>
-    </div>
-    <div class="col-12 col-lg-7">
-      <div class="placeholder w-100 h-100"></div>
-      <!-- video / ad goes here -->
-    </div>
-  </section>
-</div>
+
+<section id="hero" class="row mt-3 mt-lg-5 ">
+  <div class="col-12 col-lg-5 text-center text-lg-start">
+    <h1 class="lh-base ">Having Trouble<br>With English? </h1>
+    <h3>Look No Further</h2>
+    <h5 class="lh-base">Welcome to English Training<br>Interactive</h5>
+  </div>
+  <div class="col-12 col-lg-7">
+    <div class="placeholder w-640 h-480"></div>
+    <!-- video / ad goes here -->
+  </div>
+</section>
+
 
 <section class="row mt-5">
   <div class="col-12 col-lg-6">
@@ -64,14 +64,10 @@ include 'base.php';
 
 </section>
 <style>
-  #herobg {
-    background-color: #3B42CA;
-    margin: 0;
+  #hero-bg {
+    /*background-color: #3B42CA;*/
 
   }
 
-  #herobg * {
-    color: #DBE4EE;
-  }
 </style>
 <?php endblock(); ?>
