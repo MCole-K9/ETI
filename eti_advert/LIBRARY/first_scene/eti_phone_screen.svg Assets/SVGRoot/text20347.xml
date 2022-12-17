@@ -8,7 +8,7 @@
               <elements>
                 <DOMGroup selected="true">
                   <members>
-                    <DOMStaticText selected="true" width="80.05" height="19.95" autoExpand="true" isSelectable="false">
+                    <DOMStaticText selected="true" width="78.4" height="16.35" autoExpand="true" isSelectable="false">
                       <matrix>
                         <Matrix ty="-3.1"/>
                       </matrix>
@@ -16,7 +16,7 @@
                         <DOMTextRun>
                           <characters>This Person</characters>
                           <textAttrs>
-                            <DOMTextAttrs aliasText="false" lineSpacing="2.9" lineHeight="19.95" size="14.65" bitmapSize="293" face="NotoSans-Regular" fillColor="#FFFFFF"/>
+                            <DOMTextAttrs aliasText="false" lineSpacing="2.9" lineHeight="16.35" size="14.65" bitmapSize="293" face="NotoSans-Regular" fillColor="#FFFFFF"/>
                           </textAttrs>
                         </DOMTextRun>
                       </textRuns>
