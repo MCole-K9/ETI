@@ -14,6 +14,7 @@
       <div class="card-body fadeInBottom">
         <h5 class="card-title">Matthew Cole</h5>
         <p class="card-text"><b>Student at the VTDI, pursuing a Bsc in Information communication and Technology</b></p>
+        <p>As a software engineer, I specialize in turning procrastination into productivity. When I'm not busy pulling crafty and elegant solutions or just solutions (lol) out of thin air, you can find me playing with my pet rock. Fun fact: I once stayed up all night coding and ended up with a solution that was exactly the same as the one I had when I started. But hey, at least my mental health issues have an explanation</p>
       </div>
     </div>
 
