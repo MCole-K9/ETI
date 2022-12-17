@@ -11,12 +11,13 @@ include 'base.php';
 <section id="hero" class="row mt-3 mt-lg-5 ">
   <div class="col-12 col-lg-5 text-center text-lg-start">
     <h1 class="lh-base ">Having Trouble<br>With English? </h1>
-    <h3>Look No Further</h2>
+    <h3>Look No Further</h3>
     <h5 class="lh-base">Welcome to English Training<br>Interactive</h5>
   </div>
   <div class="col-12 col-lg-7">
     <video width="640" height="480" controls>
       <source src="media/eti_advert.mp4" type="video/mp4">
+      There is no reason on this earth why this video shouldn't
     </video>
   </div>
 </section>
@@ -28,7 +29,6 @@ include 'base.php';
     <p class="w-75">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quod odit perferendis molestias sed similique ullam fugiat voluptatibus soluta, eum nisi veniam blanditiis obcaecati in repellendus cupiditate, quaerat eos minima.</p>
 
 
-    </div>
   </div>
   <div class="col-12 col-lg-6">
     <h5 class="mb-3">Some of Our Topics</h5>
