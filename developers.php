@@ -7,7 +7,7 @@
 
 <?php startblock("content"); ?>
   <h1 class="my-5 text-center">Our team of Developers</h1>
-  <p class="mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor reprehenderit fugiat magni! Adipisci iusto accusantium, magnam ipsa cumque magni vero obcaecati maxime est hic inventore. Similique cum placeat quod officia!</p>
+  <p class="mx-auto text-center">Meet the passionate and hard-working developers behind this web solution</p>
   <div class="card-group p-5 flex d-flex ">
     <div class="card bordered shadow fadeInBottom">
       <img src="https://picsum.photos/200" class="card-img-top" alt="...">
@@ -21,7 +21,17 @@
       <img src="https://picsum.photos/200" class="card-img-top" alt="...">
       <div class="card-body fadeInBottom anim-delay">
         <h5 class="card-title">Elliot Morrison</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p class="card-text"><b>Full Stack Web Developer Extraordinaire </b>
+        <br> - 100+ Years of javascript/typescript experience 
+        <br> - 100+ Years of PHP experience
+        <br> - 100+ Years of C# experience
+        <br> - 100+ Years of Java experience
+        <br> - 100+ Years of C++ experience
+        <br> - 100+ Years of C experience
+        <br> - 100+ Years of HTML experience
+        <br> - 100+ Years of CSS experience
+        <br> - Somehow still alive and single
+      </p>
       </div>
     </div>
 
@@ -33,6 +43,12 @@
       </div>
     </div>
   </div>
+  
+<video width="400" controls>
+  <source src="eti_advert_1.mp4" type="video/mp4">
+  <!-- <source src="mov_bbb.ogg" type="video/ogg"> -->
+  Your browser does not support HTML video.
+</video>
 <?php endblock(); ?>
 <style>
   .anim-delay {

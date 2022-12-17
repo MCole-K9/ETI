@@ -23,8 +23,8 @@ include 'base.php';
 
 <section class="row mt-5">
   <div class="col-12 col-lg-6">
-    <h5 class="mb-3">Some Heading</h5>
-    <p class="w-75">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quod odit perferendis molestias sed similique ullam fugiat voluptatibus soluta, eum nisi veniam blanditiis obcaecati in repellendus cupiditate, quaerat eos minima.</p>
+    <h5 class="mb-3">Why use the E.T.I.?</h5>
+    <p class="w-75">English is a  funny language and can be tricky at times; words that sound the same but mean different things, words spelled the same but sound and differ in meaning and many other principles. we at the E.T.I. aim to make these these things less confusing at to improve YOUR english proficiency </p>
 
 
     </div>
